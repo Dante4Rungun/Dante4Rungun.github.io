@@ -120,3 +120,157 @@
     font-weight: 400;
     text-transform: uppercase;
 }
+
+.team-title{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 60px;
+    width:auto;
+    height: auto;
+}
+
+.first-t{
+    width: auto;
+    height: auto;
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.second-t{
+    width: auto;
+    height: auto;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.second-t::after{
+    position: relative;
+    margin-left:40%;
+    margin-top: 10px;
+    width: 60px;
+    height: 7px;
+    display: block;
+    content: '';
+    border-bottom: 3px solid #f38181;
+}
+
+.description{
+    position: absolute;
+    margin-top:15%;
+    margin-left:15%;
+}
+
+.descr-text{
+    display: inline-block;
+    width: 900px;
+    height: 39px;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align:center;
+}
+
+.team-info{
+    position: absolute;
+    margin-top: 25%;
+}
+
+.member{
+    position: relative;
+    display:inline-block;
+    width:380px;
+    height:470px;
+}
+
+.member:not(:last-child){
+    margin-right: 40px;
+}
+
+.info{
+    width:380px;
+    display:inline-block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.name{
+    height: 10px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.position{
+    height: 16px;
+    color: #999999;
+    font-family: "Roboto - Light Italic";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.modal-backdrop{
+    position: absolute;
+    top:-10px;
+    left:-10px;
+    width:360px;
+    height:450px;
+    padding: 10px 10px 10px 10px;
+    background:none;
+    display: none;
+    /*margin-top:30%;*/
+
+}
+
+.modal{
+    position:absolute;
+    left:0;
+    transform: translate(-50%, -50%);
+    background:rgba(255,255,255, 0.7);
+    width:auto;
+    height:300px;
+    padding-top: 80px;
+}
+
+.icons{
+    position: relative;
+    width:226px;
+    height:auto;
+    margin:50% 20% 30%;
+}
+
+.icons button{
+    position: relative;
+    display:inline-block;
+    float:left;
+    width:56px;
+    height:56px;
+    background-color: #fce38a;
+}
+
+.member:hover,
+.member:focus{
+    background-color:  #1abc9c;
+}
+
+.icon:hover,
+.icon:focus{
+    background-color: #95e1d3;
+    border: 1px solid #1abc9c;
+}
+
+.member:hover .modal-backdrop{
+    display: block;
+    background-image: linear-gradient(90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
+}
