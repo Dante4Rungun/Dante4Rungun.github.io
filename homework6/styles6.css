@@ -1,0 +1,122 @@
+.logo{
+    display: inline-block;
+    margin-left:80px;
+    margin-top: 15px;
+}
+
+.logo span{
+    width: 86px;
+    height: 23px;
+    color: #95e1d3;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.menu{
+    display: inline-block;
+    float: right;
+    margin-right: 160px;
+    margin-top: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    width: 60px;
+    height: 10px;
+    color: #95e1d3;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.menu a:not(:last-child){
+    margin-right: 20px;
+}
+
+.menu a:hover,
+.menu a:focus{
+    color: #f38181;
+    border-bottom: 3px solid #f38181;
+}
+
+.Title{
+    
+}
+
+.first-h{
+    width: auto;
+    height: 24px;
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.second-h{
+    width: auto;
+    height: auto;
+    color: #333333;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.line {
+    margin-top: 16px;
+    margin-left: 630px;
+    width: 100px;
+    height: 7px;
+    display: block;
+    content: '';
+    border-bottom: 3px solid #f38181;;
+}
+
+.Services{
+    list-style: none;
+
+}
+
+.service{
+    display:inline-block;
+    width: 400px;
+    height: 70px; 
+    margin-top: 20px;
+
+}
+
+.image{
+    position: absolute;
+    display: block;
+    top:0;
+
+}
+.descr{
+    display: inline-block;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.service span{
+    width: 200px;
+    height: 39px;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.service h2{
+    width: 94px;
+    height: 10px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
