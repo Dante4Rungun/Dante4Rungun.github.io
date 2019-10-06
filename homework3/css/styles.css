@@ -1,0 +1,114 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.masthead {
+    margin: auto;
+    max-width: 960px;
+    height: 40px;
+    line-height: 100px;
+    border-bottom: 3px solid #212121;
+}
+
+.site-navigation {
+    margin: auto;
+    font-family: Roboto, sans-serif;
+}
+    
+.site-navigation a {
+    float: left;
+    padding: 0 50px;
+    display: block;
+    font-size: 16px;
+    color: #626262;
+    font-family: "Playfair Display";
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  
+  /* Сработает при hover */
+.site-navigation a:hover {
+    color: #03a9f4;
+}
+
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.articles {
+    margin-left: 210px;
+    width: 100%;
+    height: auto;
+}
+
+.first_column {
+    display: inline-block;
+}
+.second_column {
+    margin-left: 60px;
+    display: inline-block;
+}
+
+.article { 
+    padding-top: 100px;
+    width: auto;
+    height: 800px;
+}
+
+.article_img {
+    margin: 20px auto;
+    width: 420;
+    height:280;
+}
+
+.article_hash {
+    width: 63px;
+    height: 11px;
+    color: #b4ad9e;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.article_title {
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.article_description {
+    width: 414px;
+    height: 63px;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.load_more {
+    position: relative;
+    padding: 0 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    border: 1px solid white;
+}
+
+.button-text {
+    width: 96px;
+    height: 17px;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}

@@ -1,0 +1,216 @@
+.logo {
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.logo span{
+    color: #555252;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-family: "Roboto Light";
+    font-weight: 300;
+    letter-spacing: -0.6px;
+}
+
+.logo span:first-child {
+    color: #1abc9c;
+    font-family: "Roboto - Black";
+    font-weight: 400;
+    letter-spacing: -0.6px;
+}
+
+.menu {
+    float: right;
+    margin-right: 160px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #0f0101;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 11px;
+    text-transform: uppercase;
+}
+
+.menu a:not(:last-child) {
+    margin-right: 20px;
+}
+
+.menu a:hover,
+.menu a:focus {
+    color: #1abc9c;
+}
+
+.Title {
+    margin-bottom: 90px;
+    margin-top: 120px;
+    margin-left: 25%;
+    text-align:center;
+    width: 550px;
+    height: 34px;
+    color: #515151;
+    font-family: "Roboto - Black";
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 32px;
+    text-transform: uppercase;
+    /*border-bottom: 7px solid #1abc9c;*/
+    letter-spacing: -0.96px;
+
+}
+
+.Title ::after {
+    margin-top: 16px;
+    margin-left: 193px;
+    display: block;
+    width: 164px;
+    height: 7px;
+    content: '';
+    border-bottom: 7px solid #1abc9c;
+}
+
+.Products-block {
+    padding: 0px 0px 10px;
+    display: inline-block;
+}
+
+.image-background {
+    position: relative;
+    margin-left: 40px;
+    float: left;
+    display: inline-block;
+    width: 255px;
+    height: 322px;
+    background-color: #e9f0fd;
+    cursor: pointer;
+}
+
+.item {
+    position: absolute;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+.item-name {
+    left: 0;
+    padding-left: 14px;
+    text-align: center;
+    width: calc(255px - 70px);
+    background-color: #323232;
+}
+
+.item-price {
+    right: 0;
+    display: block;
+    text-align: center;
+    background-color: #8c8c8c;
+    width: 70px;
+}
+
+.news-title {
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-bottom:60px;
+    text-align: center;
+    width: 310px;
+    height: 34px;
+    color: #555252;
+    font-family: "Roboto - Black";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: -0.96px;
+}
+
+.news-title ::after {
+    margin-top: 16px;
+    margin-left: 73px;
+    display: block;
+    width: 164px;
+    height: 7px;
+    content: '';
+    border-bottom: 7px solid #1abc9c;
+}
+
+.Articles {
+    list-style: none;
+}
+.Article {
+    float: left;
+    margin-right: 30px;
+    width: 350px;
+    cursor: pointer;
+}
+
+.Article h5 {
+    margin: 0;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: left;
+    color: #515151;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.Article h5::after {
+    padding-top: 16px;
+    display: block;
+    width: 136px;
+    content: '';
+    border-bottom: 3px solid #1abc9c;
+}
+
+.Article span {
+    width: 335px;
+    height: 66px;
+    color: #555252;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* Text style for "N, am nec" */
+    letter-spacing: -0.28px;
+}
+
+.read-more {
+    text-decoration: none;
+    display: block;
+    width: 160px;
+    height: 51px;
+    background-color: #4ec6ab; 
+    border-radius: 4px;
+}
+
+.read-more span {
+    padding-left: 48px;
+    padding-top: 18px;
+    width: 74px;
+    height: 14px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+}
+
+.read-more:hover,
+.read-more:focus {
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
