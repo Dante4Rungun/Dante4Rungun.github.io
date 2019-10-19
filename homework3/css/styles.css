@@ -22,7 +22,6 @@ a{
     width: 906px;
     margin: 0 auto;
     margin-top: 104px;
-    background-color: aliceblue;
 }
 
 /*site navigation*/
@@ -109,6 +108,31 @@ a{
     color: #626262;
     font-family: "Playfair Display";
     font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.load_more {
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 54px;
+    display: block;
+    width: 164px;
+    height: 60px;
+    line-height: 50px;
+    background-color: white;
+    border: 1px solid #626262;
+}
+
+.button-text {
+    padding: 22px 34px;
+    width: 96px;
+    height: 17px;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 20px;
     font-weight: 400;
     line-height: 24px;
 }
