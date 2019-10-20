@@ -34,8 +34,8 @@ li{
 
 .container {
     margin: 0 auto;
-    width: 1114px;
-    
+    padding: 0;
+    width: 1114px;  
 }
 
 .head {
@@ -250,7 +250,8 @@ li{
     border-bottom: 3px solid #1abc9c;
 }
 
-.article-item span {
+.article-item p {
+    margin-bottom: 40px;
     width: 335px;
     height: 66px;
     color: #555252;
@@ -263,9 +264,7 @@ li{
 }
 
 .read-more {
-    text-decoration: none;
     display: block;
-    margin-top:15px;
     width: 160px;
     height: 51px;
     background-color: #4ec6ab; 
