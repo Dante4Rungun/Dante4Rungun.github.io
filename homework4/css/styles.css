@@ -1,6 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.body {
+    margin: 0;
+}
+
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1114px;
+    
+}
+
+.head {
+    margin: 0 auto;
+    width: 1114px;
+    margin-bottom: 111px;
+}
+
 .logo {
-    margin-left: 40px;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .logo span{
@@ -21,74 +67,91 @@
     letter-spacing: -0.6px;
 }
 
-.menu {
-    float: right;
-    margin-right: 160px;
-    margin-top: 10px;
-    display: inline-block;
+.page-nav {
+    padding:5px 0;
+    float:right;
 }
 
-.menu a {
-    text-decoration: none;
+.site-navigation{
+    margin: 0;
+    padding: 3px 0;
+    width: 453px;
+}
+
+.site-navigation li{
+    float: left;
+}
+
+.site-navigation li:not(:first-child){
+    margin-left: 35px;
+}
+
+.site-navigation a{
+    margin: 0;
+    padding: 0;
     color: #0f0101;
     font-family: "Open Sans";
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 11px;
     text-transform: uppercase;
 }
 
-.menu a:not(:last-child) {
-    margin-right: 20px;
-}
-
-.menu a:hover,
-.menu a:focus {
+.site-navigation a:hover,
+.site-navigation a:focus {
     color: #1abc9c;
 }
 
-.Title {
-    margin-bottom: 90px;
-    margin-top: 120px;
-    margin-left: 25%;
-    text-align:center;
-    width: 550px;
-    height: 34px;
+.title {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 131px;
+}
+
+.title-name{
     color: #515151;
     font-family: "Roboto - Black";
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 800;
-    line-height: 32px;
+    line-height: 48px;
     text-transform: uppercase;
     /*border-bottom: 7px solid #1abc9c;*/
     letter-spacing: -0.96px;
-
 }
 
-.Title ::after {
-    margin-top: 16px;
-    margin-left: 193px;
+.title-name::after {
+    padding-top: 32px;
+    margin: auto;
+    width: 160px;
     display: block;
-    width: 164px;
-    height: 7px;
     content: '';
     border-bottom: 7px solid #1abc9c;
 }
 
-.Products-block {
-    padding: 0px 0px 10px;
-    display: inline-block;
+.products-block {
+    margin: 0 auto;
+    padding: 0;
+    width: 1116px;
+    margin-bottom: 105px;
 }
 
-.image-background {
+.products-block-item {
     position: relative;
-    margin-left: 40px;
     float: left;
-    display: inline-block;
+    margin-left: 30px;
     width: 255px;
     height: 322px;
     background-color: #e9f0fd;
     cursor: pointer;
+}
+
+.products-block-item:nth-child(4n+1){
+    margin: 0px;
+}
+
+.products-block-item:nth-child(-n+4){
+    margin-bottom: 30px;
 }
 
 .item {
@@ -119,13 +182,18 @@
     width: 70px;
 }
 
+.news{
+    margin: 0;
+    padding: 0;
+}
+
 .news-title {
-    margin-top: 20px;
-    margin-left: 40%;
-    margin-bottom:60px;
+    margin: 0 auto;
     text-align: center;
     width: 310px;
-    height: 34px;
+}
+
+.news-title-name{
     color: #555252;
     font-family: "Roboto - Black";
     font-size: 48px;
@@ -145,21 +213,28 @@
     border-bottom: 7px solid #1abc9c;
 }
 
-.Articles {
+.article {
+    margin: 0 auto;
+    padding: 0;
+    width: 1116px;
     list-style: none;
 }
-.Article {
+
+.article-item {
     float: left;
-    margin-right: 30px;
     width: 350px;
     cursor: pointer;
 }
 
-.Article h5 {
+.article-item:not(:first-child){
+    margin-left: 30px;
+}
+
+.article-item h5 {
     margin: 0;
     margin-bottom: 20px;
-    display: inline-block;
     text-align: left;
+    width: 301px;
     color: #515151;
     font-size: 18px;
     line-height: 26px;
@@ -167,7 +242,7 @@
     font-weight: 900;
 }
 
-.Article h5::after {
+.article-item h5::after {
     padding-top: 16px;
     display: block;
     width: 136px;
@@ -175,7 +250,7 @@
     border-bottom: 3px solid #1abc9c;
 }
 
-.Article span {
+.article-item span {
     width: 335px;
     height: 66px;
     color: #555252;
@@ -190,17 +265,17 @@
 .read-more {
     text-decoration: none;
     display: block;
+    margin-top:15px;
     width: 160px;
     height: 51px;
     background-color: #4ec6ab; 
     border-radius: 4px;
 }
 
-.read-more span {
-    padding-left: 48px;
-    padding-top: 18px;
+.read-more h2 {
+    padding-top: 14px;
+    margin-left: 40px;
     width: 74px;
-    height: 14px;
     color: #ffffff;
     font-family: "Open Sans";
     font-size: 16px;
