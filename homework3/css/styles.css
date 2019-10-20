@@ -19,18 +19,21 @@ a{
 }
 
 .container{
-    width: 906px;
+    width: 900px;
     margin: 0 auto;
-    margin-top: 104px;
 }
 
+.header{
+    padding-top: 77px;
+    padding-bottom: 104px;
+}
 /*site navigation*/
 
 .site-navigation{
     margin: 0;
     padding: 0;
-    margin-top: 77px;
     text-align: center;
+    font-size: 0;
 }
 
 .site-navigation li:not(:last-child){
@@ -42,8 +45,7 @@ a{
 }
 
 .site-navigation a{
-    width: 88px;
-    height: 11px;
+    display: block;
     color: #626262;
     font-family: "Playfair Display";
     font-size: 14px;
@@ -61,6 +63,7 @@ a{
     margin: 0;
     padding: 0;  
     font-size: 0;  
+;
 }
 
 .article{
@@ -68,8 +71,7 @@ a{
     padding: 0;
     margin-top: 132px;
     display: inline-block;
-    width: 423px;
-    height: 479px;
+    width: 420px;
 }
 
 .article:nth-child(2n){
@@ -80,10 +82,14 @@ a{
     margin-top: 0px;
 }
 
+.article_img{
+    margin-bottom: 32px;
+}
+
 .article_hash{
     margin: 0;
     padding: 0;
-    margin-top: 32px;
+    margin-bottom: 20px;;
     width: 85px;
     height: 11px;
     color: #b4ad9e;
@@ -96,7 +102,6 @@ a{
 .article_title{
     margin: 0;
     padding: 0;
-    margin-top: 28px;
     margin-bottom: 34px;
     color: #626262;
     font-family: "Playfair Display";
@@ -105,6 +110,8 @@ a{
 }
 
 .article_description{
+    margin: 0;
+    padding: 0;
     color: #626262;
     font-family: "Playfair Display";
     font-size: 14px;
@@ -117,19 +124,12 @@ a{
     position: relative;
     padding: 0;
     margin: 0 auto;
-    margin-top: 54px;
     display: block;
     width: 164px;
     height: 60px;
     line-height: 50px;
     background-color: white;
     border: 1px solid #626262;
-}
-
-.button-text {
-    padding: 22px 34px;
-    width: 96px;
-    height: 17px;
     color: #626262;
     font-family: "Playfair Display";
     font-size: 20px;
